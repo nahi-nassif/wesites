@@ -8,4 +8,11 @@
   <body>
 
   </body>
+  <script>
+      $(document).ready(function(){
+        if($("h1")){
+      $("h1").first().hide();
+      }
+      });
+</script>
 </html>
